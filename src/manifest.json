@@ -1,0 +1,25 @@
+{
+  "testId": "29a47a84-97f1-473d-b1f8-5bd481f07a45",
+  "name": "Iconoir",
+  "version": "1.0.1",
+  "manifestVersion": 2,
+  "requirements": {
+    "apps": [
+      {
+        "name": "Express",
+        "apiVersion": 1
+      }
+    ]
+  },
+  "entryPoints": [
+    {
+      "type": "panel",
+      "id": "panel1",
+      "main": "index.html",
+      "documentSandbox": "code.js",
+      "permissions": {
+        "sandbox": ["allow-popups"]
+      }
+    }
+  ]
+}
